@@ -5,6 +5,7 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Signin from "./pages/signin.tsx";
 import CartItem from "./components/CartItem.tsx";
+import Searchbar from "./components/Searchbar.jsx";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "item",
     element: <CartItem />,
+  },
+  {
+    path: "search",
+    element: <Searchbar />,
   },
 ]);
 
