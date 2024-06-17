@@ -1,5 +1,5 @@
 
-const CartItem = () => {
+const CartItem = ({product}) => {
   return (
     <div>CartItem</div>
   )

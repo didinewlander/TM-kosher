@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+import React,{ useState } from 'react';
 
 const Signin = () => {
     const [email, setEmail] = useState('');
@@ -19,8 +19,8 @@ const Signin = () => {
     };
 
     return (
-        <div className='flex justify-center text-8xl'>
-            <form onSubmit={handleSubmit}>
+        <div >
+            <form onSubmit={handleSubmit} className='flex flex-col justify-center text-3xl'>
                 <input
                     type='email'
                     placeholder='Email'
