@@ -4,8 +4,8 @@ import App from "./App.jsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Signin from "./pages/signin.tsx";
-import CartItem from "./components/CartItem.tsx";
 import Searchbar from "./components/Searchbar.jsx";
+import CartItem from "./components/CartItem.jsx";
 
 const router = createBrowserRouter([
   {
