@@ -1,7 +1,7 @@
 
 const Searchbar = () => {
   return (
-    <div>Searchbar</div>
+    <div>this is for tehila</div>
   )
 }
 
